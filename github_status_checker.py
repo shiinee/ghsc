@@ -10,7 +10,7 @@ url = 'https://status.github.com/status.json'
 # ordered by anti-rainbow, also octocat happiness level
 status_code = {
     'good': 0,
-    '?': 1,
+    'minorproblem': 1,
     'majorproblem': 1
 }
 
