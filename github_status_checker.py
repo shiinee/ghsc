@@ -1,6 +1,7 @@
 import argparse
 import requests
 import simplejson
+import sys
 
 # super secret status API
 url = 'https://status.github.com/status.json'
@@ -30,4 +31,4 @@ def main():
     check_status(args.verbose)
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())
